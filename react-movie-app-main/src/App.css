@@ -4,8 +4,10 @@ body {
 }
 
 .movie-app > .row {
+	
 	overflow-x: auto;
 	flex-wrap: nowrap;
+	
 }
 
 .image-container {
@@ -32,4 +34,11 @@ body {
 	font-size: 20px;
 	padding: 20px;
 	text-align: center;
+}
+input[type="radio"]{
+	display:none;
+}
+.star{
+	cursor:pointer;
+	transition:color 200ms;
 }
